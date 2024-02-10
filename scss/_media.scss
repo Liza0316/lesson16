@@ -1,0 +1,129 @@
+
+@media screen and (min-width: 443px){
+    .tops-absolut2{
+       top: 2658px;
+    }
+
+    .tops-absolut3{
+        top:3059px;
+    }
+
+    .tops-absolut{
+        top: 2256px;
+    }
+}
+
+
+@media screen and (min-width: 712px){
+    .tops-absolut3{
+        top: 3031px;
+    }
+
+    .tops-absolut2{
+        top: 2629px;
+    }
+
+    .tops-absolut{
+        top: 2226px;
+    }
+}
+
+
+
+@media screen and (min-width: 1000px){
+
+    .icon-ul{
+        padding-top: 80px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .tops-all{
+        display: grid;
+        grid-template-columns: 620px;
+        grid-template-rows: 310px 260px;  
+        padding-left: 338px;
+    }
+
+    .catalog-engdesign, .catalog-img{
+        width: 183px;
+        display: grid;
+        grid-template-columns: 183px 183px 183px 183px 183px;
+        align-items: start;
+    }
+
+    .imp{
+        font-size: 24px;
+        font-weight: 700;
+        padding-top: 30px;
+    }
+
+    .tops-absolut-h{
+        font-size: 15px;
+        font-weight: 10;
+        padding-top: 0;
+    }
+
+    .tops-absolut3{
+        top: 2087px;
+        left: 988px;
+        width: 334px;
+        height: 145px;
+    }
+
+    .tops-absolut2{
+        top: 1805px;
+        left: 989px;
+        width: 334px;
+        height: 145px;
+    }
+
+    .tops-absolut{
+        left: 370px;
+        top: 1995px;
+        width: 422px;
+    }
+
+    .loving-all{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .loving-img{
+        order:1
+    }
+    .loving-hp{
+        order: 2;
+    }
+
+    .services-img{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 140px;
+    }
+
+    .post-img{
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 100px;
+    }
+
+    .post-beach{
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .social-all{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .info{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+
+   

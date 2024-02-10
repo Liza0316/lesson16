@@ -1,0 +1,354 @@
+.collection{
+    width: 95vw;
+    padding-left: 30px;
+   
+   
+
+    &-content{
+        margin: 0 auto;
+        display: flex;
+        gap: 32px;
+        flex-direction: column;
+        align-items: center;
+        background-image: linear-gradient(to left, rgb(172, 250, 191), rgb(90, 184, 228));
+        border-radius: 2%;
+    }
+
+    &-summer{
+        color:  #2A7CC7;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+    }
+
+    h1{
+font-size: 40px;
+line-height: 50px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+
+    }
+
+    &-p{
+        color: #737373;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+    }
+
+    &-button{
+        color: white;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
+background-color: #23A6F0;
+        min-width:221px;
+        min-height:62px;
+padding: 15px, 40px, 15px, 40px;
+border-radius: 5px;
+border: 0 solid;
+    }
+}
+
+.icon{
+    padding-top: 160px;
+    &-ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+}
+
+.tops{
+    padding-top: 160px;
+    margin: 0 auto;
+
+    &-brown{
+        grid-column-start:2 ;
+    }
+
+    &-pict{
+        padding-left: 30px;
+    }
+
+    &-absolut{
+        height: 238px;
+        text-align: center;
+        width: 346px;
+        position: absolute;
+        left: 30px;
+        top: 2305px;
+        background: #2D8BC0BF;
+
+        &-h{
+            padding-top: 30px;
+            text-align: start;
+            color: white;
+            width: 310px;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: 0.10000000149011612px;
+            padding-left: 74px;
+        }
+
+        &-btn{
+            text-align: center;
+            color: white;
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: 0.20000000298023224px;
+            min-width: 198px;
+            padding: 15px 0 15px 0;
+            background: none;
+            border: 1px solid white;
+            border-radius: 7px;
+        }
+
+    }
+    &-absolut2{
+        height: 238px;
+        text-align: center;
+        width: 346px;
+        position: absolute;
+        left: 30px;
+        top: 2708px;
+        background: #2D8BC0BF;
+    }
+    &-absolut3{
+        height: 238px;
+        text-align: center;
+        width: 346px;
+        position: absolute;
+        left: 30px;
+        top: 3112px;
+        background: #2D8BC0BF;
+    }
+}
+
+.catalog{
+    padding-left: 30px;
+    padding-top: 104px;
+    padding-bottom: 160px;
+
+&-all{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+  
+
+&-engdesign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+    &-hp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    &-h{
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
+width: 239px;
+margin: 0 auto;
+    }
+
+    &-p{
+        color: #737373;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+margin: 0 auto;
+    }
+
+    &-design{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &-img{
+        width: 295px;
+      padding-left: 30px;
+    }
+    
+    .price{
+        color:  #BDBDBD;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
+    }
+
+    .old{
+        color: #23856D;
+    }    
+
+    h3{
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
+    }
+
+
+
+    &-btn{
+        color: #23A6F0;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+border: 1px solid #23A6F0;
+border-radius: 5px;
+min-width: 256px;
+padding: 15px 0 15px 0;
+background:none;
+
+    }
+}
+
+.loving{
+    margin-top: 160px;
+
+    &-all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    &-hp{
+        width: 280px;
+    }
+
+    &-h{
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: start;
+                }
+
+    &-p{
+        color:#23A6F0;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+    }
+
+    &-pa{
+        color: #737373;
+width: 256px;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+    }
+
+    &-img{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+.services{
+    padding-top: 160px;
+
+    &-all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &-h{
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
+    }
+
+    &-p{
+color: #737373;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+    }
+
+    &-pa{
+        width: 225px;
+color:#737373;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+    }
+
+    &-fig{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+.post{
+    padding-top: 160px;
+    padding-left: 30px;
+    &-all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &-hp{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.social{
+   background: #FAFAFA;
+    padding-top: 40px;
+    padding-left: 30px;
+
+    &-all{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    &-media{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+    }
+}
